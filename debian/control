@@ -1,6 +1,6 @@
 Source: freshen
-Section: unknown
-Priority: extra
+Section: python
+Priority: optional
 Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), python-support (>= 0.90.0~), python-setuptools, python
 Standards-Version: 3.8.4
@@ -11,5 +11,7 @@ Vcs-Browser: http://git.debian.org/?p=collab-maint/freshen.git;a=summary
 Package: freshen
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-nose
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: an acceptance testing framework for Python
+ Freshen is a Nose plugin that performs automated testing based on functional
+ descriptions. Its syntax is similar to Cucumber.
+ It enables non-technical users to write specifications in a simple language.
