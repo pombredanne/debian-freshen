@@ -2,8 +2,12 @@ Source: freshen
 Section: python
 Priority: optional
 Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), python-support (>= 0.90.0~), python-setuptools, python
-Standards-Version: 3.8.4
+DM-Upload-Allowed: yes
+Build-Depends: debhelper (>= 8.0.0)
+ , python-support (>= 0.90.0~)
+ , python-setuptools
+ , python
+Standards-Version: 3.9.1
 Homepage: http://github.com/rlisagor/freshen
 Vcs-Git: git://git.debian.org/collab-maint/freshen.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/freshen.git;a=summary
