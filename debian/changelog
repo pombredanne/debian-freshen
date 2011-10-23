@@ -1,8 +1,9 @@
 freshen (0.2-2) unstable; urgency=low
 
   * Example files added (Closes: #620363)
+  * Swiched to dh_python2
 
- -- Federico Ceratto <federico.ceratto@gmail.com>  Sun, 23 Oct 2011 17:13:58 +0100
+ -- Federico Ceratto <federico.ceratto@gmail.com>  Sun, 23 Oct 2011 17:18:12 +0100
 
 freshen (0.2-1) unstable; urgency=low
 
