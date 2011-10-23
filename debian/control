@@ -3,14 +3,14 @@ Section: python
 Priority: optional
 Maintainer: Federico Ceratto <federico.ceratto@gmail.com>
 DM-Upload-Allowed: yes
-Build-Depends: debhelper (>= 8.0.0)
- , python-support (>= 0.90.0~)
+Build-Depends: debhelper (>= 8.0.0~)
+ , python-all (>= 2.6.6-3~)
  , python-setuptools
- , python
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://github.com/rlisagor/freshen
 Vcs-Git: git://git.debian.org/collab-maint/freshen.git
 Vcs-Browser: http://git.debian.org/?p=collab-maint/freshen.git;a=summary
+X-Python-Version: >= 2.6
 
 Package: python-freshen
 Architecture: all
