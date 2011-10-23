@@ -15,7 +15,7 @@ X-Python-Version: >= 2.6
 Package: python-freshen
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}, python-nose, python-yaml, python-pyparsing
-Description: an acceptance testing framework for Python
+Description: acceptance testing framework for Python
  Freshen is a Nose plugin that performs automated testing based on functional
  descriptions. Its syntax is similar to Cucumber.
  It enables non-technical users to write specifications in a simple language.
